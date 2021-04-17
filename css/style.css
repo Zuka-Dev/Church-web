@@ -55,14 +55,22 @@ body{
     padding: 4px 4px;
     background-color: var(--basic-color);
 }
-.header-stroke{
 
+.header-stroke{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
 }
 .text{
     font-size: 29px;
     font-weight:700;
-    font-family:var(--font1)
+    font-family:var(--font1);
+    grid-column: 1/3
 }
 .stroke{
+    background-color: black;
+    max-width: 100%;
+    height: 3px;
+    grid-column: 3/-1;
+    margin-top: 17px;
 
 }
