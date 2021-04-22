@@ -42,10 +42,14 @@
     grid-row:3/5;
     
 }
+.head{
+    font-family: var(--font1);
+    font-size: 20px;
+}
 .card{
     transition: all ease-in-out 1s;
-    box-shadow: 3px 5px rgb(88, 88, 88);
-    border: none;
+    box-shadow: 3px 5px 3px 0px rgb(88, 88, 88);
+    border: rgb(88, 88, 88);
 }
 .card:hover{
     transform: translate3d(4px,4px,4px);
@@ -53,6 +57,7 @@
 .card-container{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 .card img {
@@ -115,8 +120,19 @@
     margin-bottom: 17px;
 
 }
-#fom{
-ßßß}
+
+a, a:visited{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+a:hover{
+    color: black;
+
+}
+button a{
+    color:white
+}
 @media only screen and (max-width: 600px) {
     .card-container{
         display: flex;
