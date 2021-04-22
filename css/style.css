@@ -45,11 +45,13 @@
 .head{
     font-family: var(--font1);
     font-size: 20px;
+    
 }
 .card{
     transition: all ease-in-out 1s;
     box-shadow: 3px 5px 3px 0px rgb(88, 88, 88);
-    border: rgb(88, 88, 88);
+    border-left-color: rgb(198, 198, 198);
+    margin-bottom: 15px;
 }
 .card:hover{
     transform: translate3d(4px,4px,4px);
